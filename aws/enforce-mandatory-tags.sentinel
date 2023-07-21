@@ -13,7 +13,7 @@ import "aws-functions" as aws
 param resource_types default [
   "aws_s3_bucket",
   "aws_instance",
-  "aws_ecs_cluster"
+  "aws_ecs_cluster",
 ]
 
 # List of mandatory tags
@@ -26,7 +26,7 @@ param mandatory_tags default [
   "owner", 
   "se-region", 
   "purpose", 
-  "terraform"
+  "terraform",
 ]
 
 # Get all AWS Resources with standard tags
