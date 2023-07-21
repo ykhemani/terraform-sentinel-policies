@@ -21,12 +21,9 @@ param resource_types default [
 # You should assign your own tags in a "mandatory_tags" parameter in your policy set
 # Or change the tags here in the policy.
 param mandatory_tags default [
-  "Name", 
   "ttl", 
   "owner", 
-  "se-region", 
   "purpose", 
-  "terraform",
 ]
 
 # Get all AWS Resources with standard tags
