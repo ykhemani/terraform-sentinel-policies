@@ -31,7 +31,7 @@ policy "require-vpc-and-kms-for-lambda-functions" {
 
 policy "restrict-ami-owners" {
   source = "./restrict-ami-owners.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-availability-zones" {
